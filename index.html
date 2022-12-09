@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <input id="color-picker" class="color-picker" type="color">
+                <select id="select-mode" class="color-mode">
+                    <option>monochrome</option>
+                    <option>monochrome-dark</option>
+                    <option>monochrome-light</option>
+                    <option>analogic</option>
+                    <option>complement</option>
+                    <option>analogic-complement</option>
+                    <option>triad</option>
+                    <option>quad</option>
+                </select>
+                <button id="color-btn"class="color-btn" type="submit">Get color scheme</button>
+            </header>
+            <main>
+                <div id="color-container" class="color-container">
+                    <h1 class="color-container-info">Pick a color, and a desirable pattern.</h1>
+                </div>
+            </main>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
